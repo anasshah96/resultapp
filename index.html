@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="container">
+        <h2>
+            sir adamjee institute of science and management
+        </h2>
+        <hr>
+        <h1>
+            Student Data
+        </h1>
+        
+        <div class="inputMainRow">
+            <div>
+                <p>Roll Number</p>
+                <input type="text" name="" id="userInp" placeholder="Enter Roll Number">
+                <button class="searchBtn" onclick="check()" >Search</button>
+                <p class="info">Roll numbers are assigned from 658200 - 658209</p>
+            </div>
+            <div class="lrBtnsDiv">
+                <button class="lrBtns " id="previousBtn" onclick="previous()"><i class="fas fa-chevron-left"></i></button>
+                <button class="lrBtns " id="nextBtn " onclick="next()"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="rollNumDiv emptyHidden" id="rollNumDiv">
+            <p class="rollNumTxt">Roll # </p>
+            <p class="rollNum" id="rollNUm">
+               &nbsp;
+            </p>
+        </div>
+
+
+        <ul id="bioData" class="bioData emptyHidden">
+            <li> <p class="cap ">Name:</p> <p id="name">  </p></li>
+            <li> <p class="cap ">Father Name:</p> <p id="fName"> </p></li>
+            <li> <p class="cap ">Age:</p> <p id="age"> </p></li>
+            <li> <p class="cap ">Class:</p> <p id="sClass"> </p></li>
+            <li> <p class="cap ">Contact #</p> <p id="contactNum"> </p></li>
+        </ul>
+
+
+        <div class="resultDiv emptyHidden" id="resultDiv" >
+            <p class="resultTxt" id="resultTxt">RESULT</p>
+            <table class="resultTable">
+                <thead>
+                    <tr>
+                        <th>Total Marks </th>
+                        <th>Obtained Marks</th>
+                        <th>Percentage</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                       <td id="totalMarks">&nbsp;</td>
+                       <td id="obtMarks">&nbsp;</td>
+                       <td id="percentage">&nbsp;</td>
+                       <td id="grade">&nbsp;</td>
+                       <td id="status">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

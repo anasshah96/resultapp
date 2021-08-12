@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+body{
+    background-color: #2089F7;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input{
+    padding: 10px 5px;
+    margin: 5px 0;
+    outline: none;
+    border-style: none;
+    color: rgb(78, 78, 78);
+}
+
+.container{
+    width: 70%;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+hr{
+    width: 65%;
+    margin: 0 auto;
+}
+h1{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: lighter;
+    font-size: 30px;
+
+
+}
+
+.info{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+
+.searchBtn{
+    background-color: #2841E0;
+    padding: 10px 10px;
+    outline: none;
+    border-style: none;
+}
+.inputMainRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.lrBtns{
+    padding: 10px 10px;
+    background-color: #2841E0;
+    padding: 10px 10px;
+    outline: none;
+    border-style: none;
+    
+}
+.lrBtns:hover,.searchBtn:hover{
+    background-color: #26D53A;
+    cursor: pointer;
+
+    
+}
+.cap{
+    font-weight: bolder;
+}
+
+.emptyHidden{
+    visibility: hidden;
+
+}
+
+.bioData{
+    margin-top: 50px;
+    list-style: none;
+    line-height: 40px;
+    width: 25%;
+    text-align: start;
+}
+
+.bioData li{
+    display: flex;
+}
+.bioData li p{
+    margin-right: 15px;    
+}
+
+
+.rollNumDiv{
+    margin-top: 30px;
+    padding: 10px 0;
+    width: 30%;
+    display: flex;
+
+}
+.rollNumTxt{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.resultTable{
+    width: 100%;
+}
+
+.resultDiv{
+    margin-top: 50px;
+
+}
+
+.resultTxt{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    letter-spacing: 3px;
+}
+
+th{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
